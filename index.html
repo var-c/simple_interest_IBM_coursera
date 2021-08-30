@@ -1,0 +1,33 @@
+<html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="carddd">
+        <h1>Simple Interest Calculator</h1>
+        Amount: <input type="number"  id="principal">  <br/><br/>
+        No. of Years: 
+        <select name="years" id="years">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="4">5</option>
+          <option value="4">6</option>
+          <option value="4">7</option>
+          <option value="4">8</option>
+          <option value="4">9</option>
+          <option value="4">10</option>
+        </select>  <br/><br/>
+        Interest : <div class="slidecontainer">
+            <input type="range" min="1" max="10" value="10" class="slider" id="interest">
+          </div><br/>
+
+        <button onclick="compute()">Compute</button>
+        <p id="output"></p>
+        <br><br>
+        <p><b>©Everyone Can Get Rich</b></p>
+        </div>
+    </body>
+</html>
